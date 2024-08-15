@@ -70,65 +70,65 @@ const configureSocketServer = (httpServer) => {
 
 export const socketServer = configureSocketServer(httpServer);
 
-await productsModel.insertMany([
-  {
-    id: 1,
-    title: "Essence Mascara Lash Princess",
-    description:
-      "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
-    code: 1403,
-    price: 9.99,
-    status: true,
-    stock: 5,
-    category: "Beauty",
-    thumbnails: "",
-  },
-  {
-    id: 2,
-    title: "Chanel Coco Noir Eau De",
-    description:
-      "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
-    code: 8877,
-    price: 129.99,
-    status: true,
-    stock: 41,
-    category: "Fragrances",
-    thumbnails: "",
-  },
-  {
-    id: 3,
-    title: "Annibale Colombo Bed",
-    description:
-      "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
-    code: 1574,
-    price: 1899.99,
-    status: true,
-    stock: 31,
-    category: "Furniture",
-    thumbnails: "",
-  },
-  {
-    id: 4,
-    title: "Annibale Colombo Sofa",
-    description:
-      "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
-    code: 8779,
-    price: 2499.99,
-    status: true,
-    stock: 16,
-    category: "Furniture",
-    thumbnails: "",
-  },
-  {
-    id: 5,
-    title: "Cooking Oil",
-    description:
-      "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
-    code: 8794,
-    price: 4.99,
-    status: true,
-    stock: 22,
-    category: "Groceries",
-    thumbnails: "",
-  },
-]);
+// await productsModel.insertMany([
+//   {
+//     id: 1,
+//     title: "Essence Mascara Lash Princess",
+//     description:
+//       "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+//     code: 1403,
+//     price: 9.99,
+//     status: true,
+//     stock: 5,
+//     category: "Beauty",
+//     thumbnails: "",
+//   },
+//   {
+//     id: 2,
+//     title: "Chanel Coco Noir Eau De",
+//     description:
+//       "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+//     code: 8877,
+//     price: 129.99,
+//     status: true,
+//     stock: 41,
+//     category: "Fragrances",
+//     thumbnails: "",
+//   },
+//   {
+//     id: 3,
+//     title: "Annibale Colombo Bed",
+//     description:
+//       "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+//     code: 1574,
+//     price: 1899.99,
+//     status: true,
+//     stock: 31,
+//     category: "Furniture",
+//     thumbnails: "",
+//   },
+//   {
+//     id: 4,
+//     title: "Annibale Colombo Sofa",
+//     description:
+//       "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+//     code: 8779,
+//     price: 2499.99,
+//     status: true,
+//     stock: 16,
+//     category: "Furniture",
+//     thumbnails: "",
+//   },
+//   {
+//     id: 5,
+//     title: "Cooking Oil",
+//     description:
+//       "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+//     code: 8794,
+//     price: 4.99,
+//     status: true,
+//     stock: 22,
+//     category: "Groceries",
+//     thumbnails: "",
+//   },
+// ]);

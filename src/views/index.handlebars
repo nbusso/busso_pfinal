@@ -1,10 +1,10 @@
 <div>
-  <h1 class="tituloDetalle">So Games, Juegos de Mesa</h1>
+  {{!-- <h1>Nico eCommerce</h1>
   <br />
-  <div class="cartIcon"><a href="#" id="cartLink">
-    <i class='bx bx-cart '></i>
+  <div><a href="#" id="cartLink">
+    <i></i>
     <p id="cartCount">0</p>
-  </a></div>
+  </a></div> --}}
   <h2>Lista de Productos</h2>
   {{#if isValid}}
   <form method="get" action="/">
@@ -22,9 +22,9 @@
       {{/each}}
     </select>
   </form>
-  <div class="productosCSS">
+  <div>
     {{#each docs}}
-    <div class="contenedorProducto">
+    <div>
       <h3>{{this.title}}</h3>
       <div class="imagen">
         <img src="{{this.thumbnail}}" alt="{{this.title}}" />
@@ -40,7 +40,7 @@
     </div>
     {{/each}}
   </div>
-  <div class="paginado"> 
+  <div> 
     {{#if hasPrevPage}}
     <a href={{prevLink}}><button>Anterior</button></a>{{else}}
     <button class="invisible">Anterior</button>
